@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+
+import Header  from './Header';
+import Menu    from './Menu';
+import Filters from './Filters';
+import Listing from './Listing';
+
 require('./App.scss');
 
 export default class App extends Component {
@@ -10,39 +16,6 @@ export default class App extends Component {
         <Filters />
         <Listing />
       </div>
-    );
-  }
-}
-
-
-class Listing extends Component {
-  render() {
-    return (
-      <section />
-    );
-  }
-}
-
-class Filters extends Component {
-  render() {
-    return (
-      <aside />
-    );
-  }
-}
-
-class Menu extends Component {
-  render() {
-    return (
-      <nav />
-    );
-  }
-}
-
-class Header extends Component {
-  render() {
-    return (
-      <header><div id="logo" /><div id="title">SPOTIPPOS - AN&Uacute;NCIOS</div></header>
     );
   }
 }

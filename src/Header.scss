@@ -1,0 +1,24 @@
+@import 'globals';
+
+header {
+  height: 60px;
+  background-color: $water-blue;
+
+  div {
+      float: left;
+  }
+
+  #logo {
+    background-color: $azure;
+    width: 107px;
+    height: 60px;
+  }
+
+  #title  {
+    color: $white-four;
+    padding: 16px;
+    font-family: $font-text;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
