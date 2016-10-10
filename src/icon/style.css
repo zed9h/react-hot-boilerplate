@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "vivareal-icon";
-  src:url("fonts/vivareal-icon.eot");
-  src:url("fonts/vivareal-icon.eot?#iefix") format("embedded-opentype"),
-    url("fonts/vivareal-icon.woff") format("woff"),
-    url("fonts/vivareal-icon.ttf") format("truetype"),
-    url("fonts/vivareal-icon.svg#vivareal-icon") format("svg");
+  src:url("vivareal-icon.eot");
+  src:url("vivareal-icon.eot?#iefix") format("embedded-opentype"),
+    url("vivareal-icon.woff") format("woff"),
+    url("vivareal-icon.ttf") format("truetype"),
+    url("vivareal-icon.svg#vivareal-icon") format("svg");
   font-weight: normal;
   font-style: normal;
 

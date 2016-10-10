@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  devtool: 'eval',
+  devtool: 'eval-cheap-module-source-map',
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
@@ -21,7 +21,6 @@ module.exports = {
       {
         test: /\.scss$/,
         loaders: ["style", "css?sourceMap", "sass?sourceMap"],
-        exclude: /node_modules/
       },
       {
         test: /\.js$/,
@@ -30,11 +29,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'style!css?sourceMap'
-      },
+        loader: 'style!css?sourceMap',
+      }
+,
       {
-        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "url?limit=10000&mimetype=image/svg+xml"
+        test: /\.(woff2?|eot|ttf|svg)(\?[a-z0-9]+)?$/,
+        loader: 'url-loader?limit=10000',
       }
     ]
   }

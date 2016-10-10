@@ -5,7 +5,7 @@ import Menu    from './Menu';
 import Filters from './Filters';
 import Listing from './Listing';
 
-require('font-awesome/css/font-awesome.css');
+require('./icon/style.css');
 require('./App.scss');
 
 export default class App extends Component {
