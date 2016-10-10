@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "vivareal-icon";
+  src:url("fonts/vivareal-icon.eot");
+  src:url("fonts/vivareal-icon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/vivareal-icon.woff") format("woff"),
+    url("fonts/vivareal-icon.ttf") format("truetype"),
+    url("fonts/vivareal-icon.svg#vivareal-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "vivareal-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "vivareal-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo-vivareal:before {
+  content: "\62";
+}
+.icon-ic-card-beds:before {
+  content: "\63";
+}
+.icon-ic-card-bathroom:before {
+  content: "\64";
+}
+.icon-building:before {
+  content: "\65";
+}
+.icon-ic-card-area:before {
+  content: "\66";
+}
+.icon-plus-icon:before {
+  content: "\61";
+}
