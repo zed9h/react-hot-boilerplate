@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>0A6D1E58-A6C4-48D1-94E6-79A2BB65EEE0</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,13 +39,17 @@
      inkscape:window-height="750"
      id="namedview4171"
      showgrid="false"
-     inkscape:zoom="9.0769231"
-     inkscape:cx="16.199153"
-     inkscape:cy="10.135593"
-     inkscape:window-x="2456"
-     inkscape:window-y="110"
+     inkscape:zoom="12.836708"
+     inkscape:cx="11.748883"
+     inkscape:cy="12.672055"
+     inkscape:window-x="2633"
+     inkscape:window-y="125"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4158" />
+     inkscape:current-layer="plus-icon"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-text-baseline="true" />
   <!-- Generator: sketchtool 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
   <title
      id="title4160">0A6D1E58-A6C4-48D1-94E6-79A2BB65EEE0</title>
@@ -69,9 +74,11 @@
          transform="translate(40.000000, 170.000000)"
          style="fill:#000000;fill-opacity:1">
         <path
-           d="M13.1551402,25.8670013 C20.4205235,25.8670013 26.3102804,20.0764758 26.3102804,12.9335006 C26.3102804,5.79052547 20.4205235,0 13.1551402,0 C5.88975688,0 0,5.79052547 0,12.9335006 C0,20.0764758 5.88975688,25.8670013 13.1551402,25.8670013 Z M13.1551402,22.99289 C18.8059939,22.99289 23.3869159,18.489148 23.3869159,12.9335006 C23.3869159,7.37785328 18.8059939,2.87411125 13.1551402,2.87411125 C7.5042865,2.87411125 2.92336449,7.37785328 2.92336449,12.9335006 C2.92336449,18.489148 7.5042865,22.99289 13.1551402,22.99289 Z"
+           d="m 13.15514,22.99289 c 5.650854,0 10.231776,-4.503742 10.231776,-10.059389 0,-5.5556477 -4.580922,-10.0593898 -10.231776,-10.0593898 -5.6508535,0 -10.2317755,4.5037421 -10.2317755,10.0593898 0,5.555647 4.580922,10.059389 10.2317755,10.059389 l 0,2.874111 C 5.8897569,25.867001 0,20.076476 0,12.933501 0,5.7905255 5.8897569,0 13.15514,0 c 7.265384,0 13.15514,5.7905255 13.15514,12.933501 0,7.142975 -5.889756,12.9335 -13.15514,12.9335 z"
            id="Oval-74-Copy"
-           style="fill:#000000;fill-opacity:1" />
+           style="fill:#000000;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csssccssscc" />
         <path
            d="M14.6168224,11.4718184 L14.6168224,7.18527813 L11.6934579,7.18527813 L11.6934579,11.4718184 L7.40691769,11.4718184 L7.40691769,14.3951829 L11.6934579,14.3951829 L11.6934579,18.6817231 L14.6168224,18.6817231 L14.6168224,14.3951829 L18.9033627,14.3951829 L18.9033627,11.4718184 L14.6168224,11.4718184 Z"
            id="Rectangle-110"
